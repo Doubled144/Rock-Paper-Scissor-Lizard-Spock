@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock-Paper-Scissor-Lizard-Spock Game</title>
+        <link href="game.css" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <h1>|Rock-Paper-Scissor-Lizard-Spock|</h1>
+        </header>
+        <main>
+            <div id="wrapper">
+                <div class="scoreBoard">
+                    <div id="user-label" class="badge">User</div> 
+                    <div id ="comp-label" class="badge">Comp</div>
+                    <span id="user-score">0</span>:<span id="comp-score">0</span>
+                </div>
+
+                <div class="result">
+                    <p></p>
+                </div>
+                <div class="choices">
+                    <div class="choice">
+                        <img id="s" src="images/scissors.png" width="185px" height="185px" alt="">
+                    </div>
+                    <div class="choice" >
+                        <img id="k" src="images/spock.png" width="185px" height="185px" alt="">
+                    </div>
+                    <div class="choice" >
+                        <img id="p" src="images/paper.png" width="185px" height="185px" alt="">
+                    </div>
+                    <div class="choice" >
+                        <img id="l" src="images/lizard.png" width="185px" height="185px" alt="">
+                    </div>
+                    <div class="choice" >
+                        <img id="r" src="images/rock.png" width="185px" height="185px" alt="">
+                    </div>
+                </div>
+                <p id="action-message">Make your Move!!</p>
+                <input id="reset" type="reset">
+            </div>
+            <script type="text/javascript" src="app.js"></script>
+        </main>
+    </body>
+</html>
